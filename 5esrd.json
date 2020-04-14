@@ -127,8 +127,8 @@
                     "***Age.*** Humans reach adulthood in their late teens and live less than a century.",
                     "***Alignment.*** Humans tend toward no particular alignment. The best and the worst are found among them.",
                     "***Size.*** Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
-                    "***Speed.*** Your base walking speed is 30 feet. ***Languages.*** You can speak, read, and write Common and one extra language of your choice.",
-                    "Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+                    "***Speed.*** Your base walking speed is 30 feet.",
+                    "***Languages.*** You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
                 ]
             }
         },
@@ -1660,6 +1660,14 @@
                         "You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots."
                     ]
                 },
+                "Spellcasting Ability": {
+                    "content": [
+                        "Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.",
+                        "**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier",
+                        "**Spell attack modifier** = your proficiency bonus + your Wisdom modifier"
+                    ]
+                },
+                "Ritual Casting": "You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.",
                 "Spellcasting Focus": "You can use a druidic focus (see chapter 5, “Equip- ment”) as a spellcasting focus for your druid spells."
             },
             "Wild Shape": {
@@ -1670,19 +1678,7 @@
                 "Beast Shapes": {
                     "content": [
                         "For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell *cure wounds,* you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.",
-                        "You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
-                    ]
-                },
-                "Spellcasting Ability": {
-                    "content": [
-                        "Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.",
-                        "**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier",
-                        "**Spell attack modifier** = your proficiency bonus + your Wisdom modifier"
-                    ]
-                },
-                "Ritual Casting": {
-                    "content": [
-                        "You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.",
+                        "You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.",
                         {
                             "table": {
                                 "Max.": [
@@ -4958,105 +4954,105 @@
                         ]
                     }
                 }
-            },
-            "Alignment": {
+            }
+        },
+        "Alignment": {
+            "content": [
+                "A typical creature in the game world has an alignment, which broadly describes its moral and personal attitudes. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward society and order (lawful, chaotic, or neutral). Thus, nine distinct alignments define the possible combinations.",
+                "These brief summaries of the nine alignments describe the typical behavior of a creature with that alignment. Individuals might vary significantly from that typical behavior, and few people are perfectly and consistently faithful to the precepts of their alignment.",
+                [
+                    "**Lawful good** (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.",
+                    "**Neutral good** (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.",
+                    "**Chaotic good** (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.",
+                    "**Lawful neutral** (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.",
+                    "**Neutral** (N) is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.",
+                    "**Chaotic neutral** (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.",
+                    "**Lawful evil** (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.",
+                    "**Neutral evil** (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.",
+                    "**Chaotic evil** (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil."
+                ]
+            ],
+            "Alignment in the Multiverse": {
                 "content": [
-                    "A typical creature in the game world has an alignment, which broadly describes its moral and personal attitudes. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward society and order (lawful, chaotic, or neutral). Thus, nine distinct alignments define the possible combinations.",
-                    "These brief summaries of the nine alignments describe the typical behavior of a creature with that alignment. Individuals might vary significantly from that typical behavior, and few people are perfectly and consistently faithful to the precepts of their alignment.",
-                    [
-                        "**Lawful good** (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.",
-                        "**Neutral good** (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.",
-                        "**Chaotic good** (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.",
-                        "**Lawful neutral** (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.",
-                        "**Neutral** (N) is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.",
-                        "**Chaotic neutral** (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.",
-                        "**Lawful evil** (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.",
-                        "**Neutral evil** (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.",
-                        "**Chaotic evil** (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil."
-                    ]
-                ],
-                "Alignment in the Multiverse": {
-                    "content": [
-                        "For many thinking creatures, alignment is a moral choice. Humans, dwarves, elves, and other humanoid races can choose whether to follow the paths of good or evil, law or chaos. According to myth, the good- aligned gods who created these races gave them free will to choose their moral paths, knowing that good without free will is slavery.",
-                        "The evil deities who created other races, though, made those races to serve them. Those races have strong inborn tendencies that match the nature of their gods. Most orcs share the violent, savage nature of the orc gods, and are thus inclined toward evil. Even if an orc chooses a good alignment, it struggles against its innate tendencies for its entire life. (Even half-orcs feel the lingering pull of the orc god’s influence.)",
-                        "Alignment is an essential part of the nature of celestials and fiends. A devil does not choose to be lawful evil, and it doesn’t tend toward lawful evil, but rather it is lawful evil in its essence. If it somehow ceased to be lawful evil, it would cease to be a devil.",
-                        "Most creatures that lack the capacity for rational thought do not have alignments—they are **unaligned**. Such a creature is incapable of making a moral or ethical choice and acts according to its bestial nature. Sharks are savage predators, for example, but they are not evil; they have no alignment."
+                    "For many thinking creatures, alignment is a moral choice. Humans, dwarves, elves, and other humanoid races can choose whether to follow the paths of good or evil, law or chaos. According to myth, the good- aligned gods who created these races gave them free will to choose their moral paths, knowing that good without free will is slavery.",
+                    "The evil deities who created other races, though, made those races to serve them. Those races have strong inborn tendencies that match the nature of their gods. Most orcs share the violent, savage nature of the orc gods, and are thus inclined toward evil. Even if an orc chooses a good alignment, it struggles against its innate tendencies for its entire life. (Even half-orcs feel the lingering pull of the orc god’s influence.)",
+                    "Alignment is an essential part of the nature of celestials and fiends. A devil does not choose to be lawful evil, and it doesn’t tend toward lawful evil, but rather it is lawful evil in its essence. If it somehow ceased to be lawful evil, it would cease to be a devil.",
+                    "Most creatures that lack the capacity for rational thought do not have alignments—they are **unaligned**. Such a creature is incapable of making a moral or ethical choice and acts according to its bestial nature. Sharks are savage predators, for example, but they are not evil; they have no alignment."
+                ]
+            }
+        },
+        "Languages": {
+            "content": [
+                "Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages on your character sheet.",
+                "Choose your languages from the Standard Languages table, or choose one that is common in your campaign. With your GM’s permission, you can instead choose a language from the Exotic Languages table or a secret language, such as thieves’ cant or the tongue of druids.",
+                "Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another."
+            ],
+            "Standard Languages": {
+                "table": {
+                    "Language": [
+                        "Common",
+                        "Dwarvish",
+                        "Elvish",
+                        "Giant",
+                        "Gnomish",
+                        "Goblin",
+                        "Halfling",
+                        "Orc"
+                    ],
+                    "Typical Speakers": [
+                        "Humans",
+                        "Dwarves",
+                        "Elves",
+                        "Ogres, giants",
+                        "Gnomes",
+                        "Goblinoids",
+                        "Halflings",
+                        "Orcs"
+                    ],
+                    "Script": [
+                        "Common",
+                        "Dwarvish",
+                        "Elvish",
+                        "Dwarvish",
+                        "Dwarvish",
+                        "Dwarvish",
+                        "Common",
+                        "Dwarvish"
                     ]
                 }
             },
-            "Languages": {
-                "content": [
-                    "Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages on your character sheet.",
-                    "Choose your languages from the Standard Languages table, or choose one that is common in your campaign. With your GM’s permission, you can instead choose a language from the Exotic Languages table or a secret language, such as thieves’ cant or the tongue of druids.",
-                    "Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another."
-                ],
-                "Standard Languages": {
-                    "table": {
-                        "Language": [
-                            "Common",
-                            "Dwarvish",
-                            "Elvish",
-                            "Giant",
-                            "Gnomish",
-                            "Goblin",
-                            "Halfling",
-                            "Orc"
-                        ],
-                        "Typical Speakers": [
-                            "Humans",
-                            "Dwarves",
-                            "Elves",
-                            "Ogres, giants",
-                            "Gnomes",
-                            "Goblinoids",
-                            "Halflings",
-                            "Orcs"
-                        ],
-                        "Script": [
-                            "Common",
-                            "Dwarvish",
-                            "Elvish",
-                            "Dwarvish",
-                            "Dwarvish",
-                            "Dwarvish",
-                            "Common",
-                            "Dwarvish"
-                        ]
-                    }
-                },
-                "Exotic Languages": {
-                    "table": {
-                        "Language": [
-                            "Abyssal",
-                            "Celestial",
-                            "Draconic",
-                            "Deep Speech",
-                            "Infernal",
-                            "Primordial",
-                            "Sylvan",
-                            "Undercommon"
-                        ],
-                        "Typical Speakers": [
-                            "Demons",
-                            "Celestials",
-                            "Dragons, dragonborn",
-                            "Aboleths, cloakers",
-                            "Devils",
-                            "Elementals",
-                            "Fey creatures",
-                            "Underworld traders"
-                        ],
-                        "Script": [
-                            "Infernal",
-                            "Celestial",
-                            "Draconic",
-                            "—",
-                            "Infernal",
-                            "Dwarvish",
-                            "Elvish",
-                            "Elvish"
-                        ]
-                    }
+            "Exotic Languages": {
+                "table": {
+                    "Language": [
+                        "Abyssal",
+                        "Celestial",
+                        "Draconic",
+                        "Deep Speech",
+                        "Infernal",
+                        "Primordial",
+                        "Sylvan",
+                        "Undercommon"
+                    ],
+                    "Typical Speakers": [
+                        "Demons",
+                        "Celestials",
+                        "Dragons, dragonborn",
+                        "Aboleths, cloakers",
+                        "Devils",
+                        "Elementals",
+                        "Fey creatures",
+                        "Underworld traders"
+                    ],
+                    "Script": [
+                        "Infernal",
+                        "Celestial",
+                        "Draconic",
+                        "—",
+                        "Infernal",
+                        "Dwarvish",
+                        "Elvish",
+                        "Elvish"
+                    ]
                 }
             }
         },
@@ -7016,7 +7012,9 @@
                 "The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster’s spellcasting ability and proficiency bonus.",
                 "The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect."
             ]
-        },
+        }
+    },
+    "Adventuring": {
         "Time": {
             "content": [
                 "In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In a dungeon environment, the adventurers’ movement happens on a scale of **minutes**. It takes them about a minute to creep down a long hallway, another minute to check for traps on the door at the end of the hall, and a good ten minutes to search the chamber beyond for anything interesting or valuable.",
@@ -16935,84 +16933,84 @@
                         "***Actions***",
                         "***Smother.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one Medium or smaller creature. *Hit:* The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can’t smother another target. In addition, at the start of each of the target’s turns, the target takes 10 (2d6 + 3) bludgeoning damage."
                     ]
-                },
-                "Ankheg": {
-                    "content": [
-                        "*Large monstrosity, unaligned*",
-                        "**Armor Class** 14 (natural armor), 11 while prone",
-                        "**Hit Points** 39 (6d10 + 6)",
-                        "**Speed** 30 ft., burrow 10 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "17 (+3)"
-                                ],
-                                "DEX": [
-                                    "11 (+0)"
-                                ],
-                                "CON": [
-                                    "13 (+1)"
-                                ],
-                                "INT": [
-                                    "1 (−5)"
-                                ],
-                                "WIS": [
-                                    "13 (+1)"
-                                ],
-                                "CHA": [
-                                    "6 (−2)"
-                                ]
-                            }
-                        },
-                        "**Senses** darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
-                        "**Languages** —",
-                        "**Challenge** 2 (450 XP)",
-                        "**Actions**",
-                        "***Bite.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.",
-                        "***Acid Spray (Recharge 6).*** The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one."
-                    ]
-                },
-                "Azer": {
-                    "content": [
-                        "*Medium elemental, lawful neutral*",
-                        "**Armor Class** 17 (natural armor, shield)",
-                        "**Hit Points** 39 (6d8 + 12)",
-                        "**Speed** 30 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "17 (+3)"
-                                ],
-                                "DEX": [
-                                    "12 (+1)"
-                                ],
-                                "CON": [
-                                    "15 (+2)"
-                                ],
-                                "INT": [
-                                    "12 (+1)"
-                                ],
-                                "WIS": [
-                                    "13 (+1)"
-                                ],
-                                "CHA": [
-                                    "10 (+0)"
-                                ]
-                            }
-                        },
-                        "**Saving Throws** Con +4",
-                        "**Damage Immunities** fire, poison",
-                        "**Condition Immunities** poisoned",
-                        "**Senses** passive Perception 11",
-                        "**Languages** Ignan",
-                        "**Challenge** 2 (450 XP)",
-                        "***Heated Body.*** A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.",
-                        "***Heated Weapons.*** When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).",
-                        "***Illumination.*** The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
-                        "**Actions**",
-                        "***Warhammer.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
-                    ]
                 }
+            },
+            "Ankheg": {
+                "content": [
+                    "*Large monstrosity, unaligned*",
+                    "**Armor Class** 14 (natural armor), 11 while prone",
+                    "**Hit Points** 39 (6d10 + 6)",
+                    "**Speed** 30 ft., burrow 10 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "17 (+3)"
+                            ],
+                            "DEX": [
+                                "11 (+0)"
+                            ],
+                            "CON": [
+                                "13 (+1)"
+                            ],
+                            "INT": [
+                                "1 (−5)"
+                            ],
+                            "WIS": [
+                                "13 (+1)"
+                            ],
+                            "CHA": [
+                                "6 (−2)"
+                            ]
+                        }
+                    },
+                    "**Senses** darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
+                    "**Languages** —",
+                    "**Challenge** 2 (450 XP)",
+                    "**Actions**",
+                    "***Bite.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.",
+                    "***Acid Spray (Recharge 6).*** The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one."
+                ]
+            },
+            "Azer": {
+                "content": [
+                    "*Medium elemental, lawful neutral*",
+                    "**Armor Class** 17 (natural armor, shield)",
+                    "**Hit Points** 39 (6d8 + 12)",
+                    "**Speed** 30 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "17 (+3)"
+                            ],
+                            "DEX": [
+                                "12 (+1)"
+                            ],
+                            "CON": [
+                                "15 (+2)"
+                            ],
+                            "INT": [
+                                "12 (+1)"
+                            ],
+                            "WIS": [
+                                "13 (+1)"
+                            ],
+                            "CHA": [
+                                "10 (+0)"
+                            ]
+                        }
+                    },
+                    "**Saving Throws** Con +4",
+                    "**Damage Immunities** fire, poison",
+                    "**Condition Immunities** poisoned",
+                    "**Senses** passive Perception 11",
+                    "**Languages** Ignan",
+                    "**Challenge** 2 (450 XP)",
+                    "***Heated Body.*** A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.",
+                    "***Heated Weapons.*** When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).",
+                    "***Illumination.*** The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+                    "**Actions**",
+                    "***Warhammer.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
+                ]
             }
         },
         "Monsters (B)": {
@@ -18381,49 +18379,49 @@
                         "***Bite.** Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can’t bite another target.",
                         "***Tail.** Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 20 (3d8 + 7) bludgeoning damage."
                     ]
-                },
-                "Doppelganger": {
-                    "content": [
-                        "*Medium monstrosity (shapechanger), neutral*",
-                        "**Armor Class** 14",
-                        "**Hit Points** 52 (8d8 + 16)",
-                        "**Speed** 30 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "11 (+0)"
-                                ],
-                                "DEX": [
-                                    "18 (+4)"
-                                ],
-                                "CON": [
-                                    "14 (+2)"
-                                ],
-                                "INT": [
-                                    "11 (+0)"
-                                ],
-                                "WIS": [
-                                    "12 (+1)"
-                                ],
-                                "CHA": [
-                                    "14 (+2)"
-                                ]
-                            }
-                        },
-                        "**Skills** Deception +6, Insight +3",
-                        "**Condition Immunities** charmed",
-                        "**Senses** darkvision 60 ft., passive Perception 11",
-                        "**Languages** Common",
-                        "**Challenge** 3 (700 XP)",
-                        "***Shapechanger.*** The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.",
-                        "***Ambusher.*** The doppelganger has advantage on attack rolls against any creature it has surprised.",
-                        "***Surprise Attack.*** If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
-                        "**Actions**",
-                        "***Multiattack.*** The doppelganger makes two melee attacks.",
-                        "***Slam.** Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage.",
-                        "***Read Thoughts.*** The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger’s concentration isn’t broken (as if concentrating on a spell). While reading the target’s mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target."
-                    ]
                 }
+            },
+            "Doppelganger": {
+                "content": [
+                    "*Medium monstrosity (shapechanger), neutral*",
+                    "**Armor Class** 14",
+                    "**Hit Points** 52 (8d8 + 16)",
+                    "**Speed** 30 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "11 (+0)"
+                            ],
+                            "DEX": [
+                                "18 (+4)"
+                            ],
+                            "CON": [
+                                "14 (+2)"
+                            ],
+                            "INT": [
+                                "11 (+0)"
+                            ],
+                            "WIS": [
+                                "12 (+1)"
+                            ],
+                            "CHA": [
+                                "14 (+2)"
+                            ]
+                        }
+                    },
+                    "**Skills** Deception +6, Insight +3",
+                    "**Condition Immunities** charmed",
+                    "**Senses** darkvision 60 ft., passive Perception 11",
+                    "**Languages** Common",
+                    "**Challenge** 3 (700 XP)",
+                    "***Shapechanger.*** The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.",
+                    "***Ambusher.*** The doppelganger has advantage on attack rolls against any creature it has surprised.",
+                    "***Surprise Attack.*** If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
+                    "**Actions**",
+                    "***Multiattack.*** The doppelganger makes two melee attacks.",
+                    "***Slam.** Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage.",
+                    "***Read Thoughts.*** The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger’s concentration isn’t broken (as if concentrating on a spell). While reading the target’s mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target."
+                ]
             },
             "Dragons, Chromatic": {
                 "Black Dragon": {
@@ -19385,6 +19383,11 @@
                             "***Claw.** Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 15 (2d6 + 8) slashing damage.",
                             "***Tail.** Melee Weapon Attack:* +14 to hit, reach 20 ft., one target. *Hit:* 17 (2d8 + 8) bludgeoning damage.",
                             "***Frightful Presence.*** Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.",
+                            "***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons:",
+                            "**Fire Breath.** The dragon exhales fire in an 90-foot line that is 10 feet wide. Each creature in that line must make a DC 21 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.",
+                            "**Sleep Breath.** The dragon exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.",
+                            "***Change Shape.*** The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice).",
+                            "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                             "**Legendary Actions**",
                             "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.",
                             "**Detect.** The dragon makes a Wisdom (Perception) check.",
@@ -19398,11 +19401,6 @@
                             "**Armor Class** 18 (natural armor)",
                             "**Hit Points** 172 (15d12 + 75)",
                             "**Speed** 40 ft., burrow 30 ft., fly 80 ft.",
-                            "***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons:",
-                            "**Fire Breath.** The dragon exhales fire in an 90-foot line that is 10 feet wide. Each creature in that line must make a DC 21 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.",
-                            "**Sleep Breath.** The dragon exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.",
-                            "***Change Shape.*** The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice).",
-                            "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                             {
                                 "table": {
                                     "STR": [
@@ -20306,179 +20304,179 @@
                             "**Paralyzing Breath.** The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                         ]
                     }
-                },
-                "Dragon Turtle": {
-                    "content": [
-                        "*Gargantuan dragon, neutral*",
-                        "**Armor Class** 20 (natural armor)",
-                        "**Hit Points** 341 (22d20 + 110)",
-                        "**Speed** 20 ft., swim 40 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "25 (+7)"
-                                ],
-                                "DEX": [
-                                    "10 (+0)"
-                                ],
-                                "CON": [
-                                    "20 (+5)"
-                                ],
-                                "INT": [
-                                    "10 (+0)"
-                                ],
-                                "WIS": [
-                                    "12 (+1)"
-                                ],
-                                "CHA": [
-                                    "12 (+1)"
-                                ]
-                            }
-                        },
-                        "**Saving Throws** Dex +6, Con +11, Wis +7",
-                        "**Damage Resistances** fire",
-                        "**Senses** darkvision 120 ft., passive Perception 11",
-                        "**Languages** Aquan, Draconic",
-                        "**Challenge** 17 (18,000 XP)",
-                        "***Amphibious.*** The dragon turtle can breathe air and water.",
-                        "***Actions***",
-                        "***Multiattack.*** The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks.",
-                        "***Bite.** Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 26 (3d12 + 7) piercing damage.",
-                        "***Claw.** Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 16 (2d8 + 7) slashing damage.",
-                        "***Tail.** Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.",
-                        "***Steam Breath (Recharge 5–6).*** The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (15d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn’t grant resistance against this damage."
-                    ]
-                },
-                "Drider": {
-                    "content": [
-                        "*Large monstrosity, chaotic evil*",
-                        "**Armor Class** 19 (natural armor)",
-                        "**Hit Points** 123 (13d10 + 52)",
-                        "**Speed** 30 ft., climb 30 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "16 (+3)"
-                                ],
-                                "DEX": [
-                                    "16 (+3)"
-                                ],
-                                "CON": [
-                                    "18 (+4)"
-                                ],
-                                "INT": [
-                                    "13 (+1)"
-                                ],
-                                "WIS": [
-                                    "14 (+2)"
-                                ],
-                                "CHA": [
-                                    "12 (+1)"
-                                ]
-                            }
-                        },
-                        "**Skills** Perception +5, Stealth +9",
-                        "**Senses** darkvision 120 ft., passive Perception 15",
-                        "**Languages** Elvish, Undercommon",
-                        "**Challenge** 6 (2,300 XP)",
-                        "***Fey Ancestry.*** The drider has advantage on saving throws against being charmed, and magic can’t put the drider to sleep.",
-                        "***Innate Spellcasting.*** The drider’s innate spellcasting ability is Wisdom (spell save DC 13). The drider can innately cast the following spells, requiring no material components:",
-                        "At will: *dancing lights* 1/day each: *darkness*, *faerie fire*",
-                        "***Spider Climb.*** The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-                        "***Sunlight Sensitivity.*** While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
-                        "***Web Walker.*** The drider ignores movement restrictions caused by webbing.",
-                        "**Actions**",
-                        "***Multiattack.*** The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack.",
-                        "***Bite.** Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 2 (1d4) piercing damage plus 9 (2d8) poison damage.",
-                        "***Longsword.** Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
-                        "***Longbow.** Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage."
-                    ]
-                },
-                "Dryad": {
-                    "content": [
-                        "*Medium fey, neutral*",
-                        "**Armor Class** 11 (16 with *barkskin*)",
-                        "**Hit Points** 22 (5d8)",
-                        "**Speed** 30 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "10 (+0)"
-                                ],
-                                "DEX": [
-                                    "12 (+1)"
-                                ],
-                                "CON": [
-                                    "11 (+0)"
-                                ],
-                                "INT": [
-                                    "14 (+2)"
-                                ],
-                                "WIS": [
-                                    "15 (+2)"
-                                ],
-                                "CHA": [
-                                    "18 (+4)"
-                                ]
-                            }
-                        },
-                        "**Skills** Perception +4, Stealth +5",
-                        "**Senses** darkvision 60 ft., passive Perception 14",
-                        "**Languages** Elvish, Sylvan",
-                        "**Challenge** 1 (200 XP)",
-                        "***Innate Spellcasting.*** The dryad’s innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:",
-                        "At will: *druidcraft* 3/day each: *entangle*, *goodberry* 1/day each: *barkskin*, *pass without trace*, *shillelagh*",
-                        "***Magic Resistance.*** The dryad has advantage on saving throws against spells and other magical effects.",
-                        "***Speak with Beasts and Plants.*** The dryad can communicate with beasts and plants as if they shared a language.",
-                        "***Tree Stride.*** Once on her turn, the dryad can use 10 feet of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.",
-                        "**Actions**",
-                        "***Club.** Melee Weapon Attack:* +2 to hit (+6 to hit with *shillelagh*), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with *shillelagh*.",
-                        "***Fey Charm.*** The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn’t under the dryad’s control, it takes the dryad’s requests or actions in the most favorable way it can.",
-                        "Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target’s saving throw is successful, the target is immune to the dryad’s Fey Charm for the next 24 hours.",
-                        "The dryad can have no more than one humanoid and up to three beasts charmed at a time."
-                    ]
-                },
-                "Duergar": {
-                    "content": [
-                        "*Medium humanoid (dwarf), lawful evil*",
-                        "**Armor Class** 16 (scale mail, shield)",
-                        "**Hit Points** 26 (4d8 + 8)",
-                        "**Speed** 25 ft.",
-                        {
-                            "table": {
-                                "STR": [
-                                    "14 (+2)"
-                                ],
-                                "DEX": [
-                                    "11 (+0)"
-                                ],
-                                "CON": [
-                                    "14 (+2)"
-                                ],
-                                "INT": [
-                                    "11 (+0)"
-                                ],
-                                "WIS": [
-                                    "10 (+0)"
-                                ],
-                                "CHA": [
-                                    "9 (−1)"
-                                ]
-                            }
-                        },
-                        "**Damage Resistances** poison",
-                        "**Senses** darkvision 120 ft., passive Perception 10",
-                        "**Languages** Dwarvish, Undercommon",
-                        "**Challenge** 1 (200 XP)",
-                        "***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.",
-                        "***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
-                        "**Actions**",
-                        "***Enlarge (Recharges after a Short or Long Rest).*** For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.",
-                        "***War Pick.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.",
-                        "***Javelin.** Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.",
-                        "***Invisibility (Recharges after a Short or Long Rest).*** The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
-                    ]
                 }
+            },
+            "Dragon Turtle": {
+                "content": [
+                    "*Gargantuan dragon, neutral*",
+                    "**Armor Class** 20 (natural armor)",
+                    "**Hit Points** 341 (22d20 + 110)",
+                    "**Speed** 20 ft., swim 40 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "25 (+7)"
+                            ],
+                            "DEX": [
+                                "10 (+0)"
+                            ],
+                            "CON": [
+                                "20 (+5)"
+                            ],
+                            "INT": [
+                                "10 (+0)"
+                            ],
+                            "WIS": [
+                                "12 (+1)"
+                            ],
+                            "CHA": [
+                                "12 (+1)"
+                            ]
+                        }
+                    },
+                    "**Saving Throws** Dex +6, Con +11, Wis +7",
+                    "**Damage Resistances** fire",
+                    "**Senses** darkvision 120 ft., passive Perception 11",
+                    "**Languages** Aquan, Draconic",
+                    "**Challenge** 17 (18,000 XP)",
+                    "***Amphibious.*** The dragon turtle can breathe air and water.",
+                    "***Actions***",
+                    "***Multiattack.*** The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks.",
+                    "***Bite.** Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 26 (3d12 + 7) piercing damage.",
+                    "***Claw.** Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 16 (2d8 + 7) slashing damage.",
+                    "***Tail.** Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.",
+                    "***Steam Breath (Recharge 5–6).*** The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (15d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn’t grant resistance against this damage."
+                ]
+            },
+            "Drider": {
+                "content": [
+                    "*Large monstrosity, chaotic evil*",
+                    "**Armor Class** 19 (natural armor)",
+                    "**Hit Points** 123 (13d10 + 52)",
+                    "**Speed** 30 ft., climb 30 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "16 (+3)"
+                            ],
+                            "DEX": [
+                                "16 (+3)"
+                            ],
+                            "CON": [
+                                "18 (+4)"
+                            ],
+                            "INT": [
+                                "13 (+1)"
+                            ],
+                            "WIS": [
+                                "14 (+2)"
+                            ],
+                            "CHA": [
+                                "12 (+1)"
+                            ]
+                        }
+                    },
+                    "**Skills** Perception +5, Stealth +9",
+                    "**Senses** darkvision 120 ft., passive Perception 15",
+                    "**Languages** Elvish, Undercommon",
+                    "**Challenge** 6 (2,300 XP)",
+                    "***Fey Ancestry.*** The drider has advantage on saving throws against being charmed, and magic can’t put the drider to sleep.",
+                    "***Innate Spellcasting.*** The drider’s innate spellcasting ability is Wisdom (spell save DC 13). The drider can innately cast the following spells, requiring no material components:",
+                    "At will: *dancing lights* 1/day each: *darkness*, *faerie fire*",
+                    "***Spider Climb.*** The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+                    "***Sunlight Sensitivity.*** While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+                    "***Web Walker.*** The drider ignores movement restrictions caused by webbing.",
+                    "**Actions**",
+                    "***Multiattack.*** The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack.",
+                    "***Bite.** Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 2 (1d4) piercing damage plus 9 (2d8) poison damage.",
+                    "***Longsword.** Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+                    "***Longbow.** Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage."
+                ]
+            },
+            "Dryad": {
+                "content": [
+                    "*Medium fey, neutral*",
+                    "**Armor Class** 11 (16 with *barkskin*)",
+                    "**Hit Points** 22 (5d8)",
+                    "**Speed** 30 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "10 (+0)"
+                            ],
+                            "DEX": [
+                                "12 (+1)"
+                            ],
+                            "CON": [
+                                "11 (+0)"
+                            ],
+                            "INT": [
+                                "14 (+2)"
+                            ],
+                            "WIS": [
+                                "15 (+2)"
+                            ],
+                            "CHA": [
+                                "18 (+4)"
+                            ]
+                        }
+                    },
+                    "**Skills** Perception +4, Stealth +5",
+                    "**Senses** darkvision 60 ft., passive Perception 14",
+                    "**Languages** Elvish, Sylvan",
+                    "**Challenge** 1 (200 XP)",
+                    "***Innate Spellcasting.*** The dryad’s innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:",
+                    "At will: *druidcraft* 3/day each: *entangle*, *goodberry* 1/day each: *barkskin*, *pass without trace*, *shillelagh*",
+                    "***Magic Resistance.*** The dryad has advantage on saving throws against spells and other magical effects.",
+                    "***Speak with Beasts and Plants.*** The dryad can communicate with beasts and plants as if they shared a language.",
+                    "***Tree Stride.*** Once on her turn, the dryad can use 10 feet of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.",
+                    "**Actions**",
+                    "***Club.** Melee Weapon Attack:* +2 to hit (+6 to hit with *shillelagh*), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with *shillelagh*.",
+                    "***Fey Charm.*** The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn’t under the dryad’s control, it takes the dryad’s requests or actions in the most favorable way it can.",
+                    "Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target’s saving throw is successful, the target is immune to the dryad’s Fey Charm for the next 24 hours.",
+                    "The dryad can have no more than one humanoid and up to three beasts charmed at a time."
+                ]
+            },
+            "Duergar": {
+                "content": [
+                    "*Medium humanoid (dwarf), lawful evil*",
+                    "**Armor Class** 16 (scale mail, shield)",
+                    "**Hit Points** 26 (4d8 + 8)",
+                    "**Speed** 25 ft.",
+                    {
+                        "table": {
+                            "STR": [
+                                "14 (+2)"
+                            ],
+                            "DEX": [
+                                "11 (+0)"
+                            ],
+                            "CON": [
+                                "14 (+2)"
+                            ],
+                            "INT": [
+                                "11 (+0)"
+                            ],
+                            "WIS": [
+                                "10 (+0)"
+                            ],
+                            "CHA": [
+                                "9 (−1)"
+                            ]
+                        }
+                    },
+                    "**Damage Resistances** poison",
+                    "**Senses** darkvision 120 ft., passive Perception 10",
+                    "**Languages** Dwarvish, Undercommon",
+                    "**Challenge** 1 (200 XP)",
+                    "***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.",
+                    "***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+                    "**Actions**",
+                    "***Enlarge (Recharges after a Short or Long Rest).*** For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.",
+                    "***War Pick.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.",
+                    "***Javelin.** Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.",
+                    "***Invisibility (Recharges after a Short or Long Rest).*** The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
+                ]
             }
         },
         "Monsters (E)": {
@@ -20648,10 +20646,7 @@
                         "**Actions**",
                         "***Multiattack.*** The elemental makes two slam attacks.",
                         "***Slam.*** Melee *Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage.",
-                        "***Whelm (Recharge 4–6).*** Each creature in the elemental’s space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8",
-                        [
-                            "4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental’s space."
-                        ],
+                        "***Whelm (Recharge 4–6).*** Each creature in the elemental’s space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental’s space.",
                         "The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental’s turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding."
                     ]
                 }
@@ -24240,7 +24235,7 @@
                     "**Damage Vulnerabilities** cold",
                     "**Damage Resistances** bludgeoning, piercing, and slashing from nonmagical attacks",
                     "**Damage Immunities** fire",
-                    "**Sense**s darkvision 60 ft., passive Perception 10",
+                    "**Senses** darkvision 60 ft., passive Perception 10",
                     "**Languages** Ignan",
                     "**Challenge** 5 (1,800 XP)",
                     "***Heated Body.*** A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage.",
@@ -24280,7 +24275,7 @@
                         }
                     },
                     "**Skills** Perception +2, Performance +6, Stealth +5",
-                    "**Sense**s passive Perception 12",
+                    "**Senses** passive Perception 12",
                     "**Languages** Common, Elvish, Sylvan",
                     "**Challenge** 1/2 (100 XP)",
                     "***Magic Resistance.*** The satyr has advantage on saving throws against spells and other magical effects.",
@@ -25934,7 +25929,9 @@
         "Awakened Shrub": {
             "content": [
                 "*Small plant, unaligned*",
-                "**Armor Class** 9 **Hit Points** 10 (3d6) **Speed** 20 ft.",
+                "**Armor Class** 9",
+                "**Hit Points** 10 (3d6)",
+                "**Speed** 20 ft.",
                 {
                     "table": {
                         "STR": [
@@ -27541,7 +27538,9 @@
         "Giant Rat": {
             "content": [
                 "*Small beast, unaligned*",
-                "**Armor Class** 12 **Hit Points** 7 (2d6) **Speed** 30 ft.",
+                "**Armor Class** 12",
+                "**Hit Points** 7 (2d6)",
+                "**Speed** 30 ft.",
                 {
                     "table": {
                         "STR": [
@@ -27852,7 +27851,9 @@
         "Giant Weasel": {
             "content": [
                 "*Medium beast, unaligned*",
-                "**Armor Class** 13 **Hit Points** 9 (2d8) **Speed** 40 ft.",
+                "**Armor Class** 13",
+                "**Hit Points** 9 (2d8)",
+                "**Speed** 40 ft.",
                 {
                     "table": {
                         "STR": [
@@ -28077,7 +28078,9 @@
         "Jackal": {
             "content": [
                 "*Small beast, unaligned*",
-                "**Armor Class** 12 **Hit Points** 3 (1d6) **Speed** 40 ft.",
+                "**Armor Class** 12",
+                "**Hit Points** 3 (1d6)",
+                "**Speed** 40 ft.",
                 {
                     "table": {
                         "STR": [
@@ -28610,8 +28613,28 @@
                 "**Armor Class** 13",
                 "**Hit Points** 1 (1d4 − 1)",
                 "**Speed** 0 ft., swim 40 ft.",
-                "**STR DEX CON**",
-                "2 (−4) 16 (+3) 9 (−1)",
+                {
+                    "table": {
+                        "STR": [
+                            "2 (−4)"
+                        ],
+                        "DEX": [
+                            "16 (+3)"
+                        ],
+                        "CON": [
+                            "9 (−1)"
+                        ],
+                        "INT": [
+                            "1 (−5)"
+                        ],
+                        "WIS": [
+                            "7 (-2)"
+                        ],
+                        "CHA": [
+                            "2 (−4)"
+                        ]
+                    }
+                },
                 "**Senses** darkvision 60 ft., passive Perception 8",
                 "**Languages** —",
                 "**Challenge** 0 (10 XP)",
@@ -28955,7 +28978,9 @@
         "Swarm of Bats": {
             "content": [
                 "*Medium swarm of Tiny beasts, unaligned*",
-                "**Armor Class** 12 **Hit Points** 22 (5d8) **Speed** 0 ft., fly 30 ft.",
+                "**Armor Class** 12",
+                "**Hit Points** 22 (5d8)",
+                "**Speed** 0 ft., fly 30 ft.",
                 {
                     "table": {
                         "STR": [
@@ -29376,7 +29401,9 @@
                 },
                 "**Skills** Perception +5, Stealth +3",
                 "**Damage Immunities** cold",
-                "**Senses** passive Perception 15 **Languages** Common, Giant, Winter Wolf **Challenge** 3 (700 XP)",
+                "**Senses** passive Perception 15",
+                "**Languages** Common, Giant, Winter Wolf",
+                "**Challenge** 3 (700 XP)",
                 "***Keen Hearing and Smell.*** The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
                 "***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally isn’t incapacitated.",
                 "***Snow Camouflage.*** The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
@@ -29477,7 +29504,9 @@
         "Acolyte": {
             "content": [
                 "*Medium humanoid (any race), any alignment*",
-                "**Armor Class** 10 **Hit Points** 9 (2d8) **Speed** 30 ft.",
+                "**Armor Class** 10",
+                "**Hit Points** 9 (2d8)",
+                "**Speed** 30 ft.",
                 {
                     "table": {
                         "STR": [
@@ -29545,8 +29574,8 @@
                 "**Challenge** 12 (8,400 XP)",
                 "***Magic Resistance.*** The archmage has advantage on saving throws against spells and other magical effects.",
                 "***Spellcasting.*** The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast *disguise self* and *invisibility* at will and has the following wizard spells prepared:",
-                "Cantrips (at will): *fire bolt*, *light*, *mage hand*, *prestidigitation*, *shocking grasp* 1st level (4 slots): *detect magic*, *identify*, *mage armor**, *magic missile* 2nd level (3 slots): *detect thoughts*, *mirror image*, *misty step* 3rd level (3 slots): *counterspell*, *fly*, *lightning bolt* 4th level (3 slots): *banishment*, *fire shield*, *stoneskin** 5th level (3 slots): *cone of cold*, *scrying*, *wall of force* 6th level (1 slot): *globe of invulnerability* 7th level (1 slot): *teleport* 8th level (1 slot): *mind blank** 9th level (1 slot): *time stop*",
-                "**The archmage casts these spells on itself before combat.*",
+                "Cantrips (at will): *fire bolt*, *light*, *mage hand*, *prestidigitation*, *shocking grasp* 1st level (4 slots): *detect magic*, *identify*, *mage armor*, *magic missile* 2nd level (3 slots): *detect thoughts*, *mirror image*, *misty step* 3rd level (3 slots): *counterspell*, *fly*, *lightning bolt* 4th level (3 slots): *banishment*, *fire shield*, *stoneskin* 5th level (3 slots): *cone of cold*, *scrying*, *wall of force* 6th level (1 slot): *globe of invulnerability* 7th level (1 slot): *teleport* 8th level (1 slot): *mind blank* 9th level (1 slot): *time stop*",
+                "*The archmage casts these spells on itself before combat.*",
                 "**Actions**",
                 "***Dagger.** Melee or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2)  piercing damage.",
                 "**Archmages** are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
@@ -29718,7 +29747,9 @@
         "Commoner": {
             "content": [
                 "*Medium humanoid (any race), any alignment*",
-                "**Armor Class** 10 **Hit Points** 4 (1d8) **Speed** 30 ft.",
+                "**Armor Class** 10",
+                "**Hit Points** 4 (1d8)",
+                "**Speed** 30 ft.",
                 {
                     "table": {
                         "STR": [
